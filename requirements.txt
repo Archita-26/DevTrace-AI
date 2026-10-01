@@ -1,0 +1,14 @@
+# Core Backend Framework
+fastapi>=0.110.0
+uvicorn>=0.28.0
+pydantic>=2.0.0
+
+# Testing Engine
+pytest>=8.0.0
+
+# AI & LLM Integration
+google-genai>=0.1.0
+python-dotenv>=1.0.0
+
+# Interactive Dashboard UI
+streamlit>=1.32.0
