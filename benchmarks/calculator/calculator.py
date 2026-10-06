@@ -28,4 +28,4 @@ def calculate_discount(price: float, discount_percent: float) -> float:
     BUG: Currently returns only the discount amount instead of the discounted price!
     Expected: price - (price * (discount_percent / 100))
     """
-    return price * (discount_percent / 100)
+    return price - (price * (discount_percent / 100))
